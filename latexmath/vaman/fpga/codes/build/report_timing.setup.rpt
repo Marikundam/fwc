@@ -1,0 +1,97 @@
+#Timing report of worst 3 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: Q2.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:D2.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+Q2.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$logicex.Q2.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$logicex.Q2.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+D2_LUT3_O.t_frag.XA1[0] (T_FRAG)                                      5.545    16.503
+D2_LUT3_O.t_frag.XZ[0] (T_FRAG)                                       1.549    18.053
+$iopadmap$logicex.D2.O_DAT[0] (BIDIR_CELL)                            4.448    22.501
+$iopadmap$logicex.D2.O_PAD_$out[0] (BIDIR_CELL)                       9.809    32.310
+out:D2.outpad[0] (.output)                                            0.000    32.310
+data arrival time                                                              32.310
+
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+clock uncertainty                                                     0.000     0.000
+output external delay                                                 0.000     0.000
+data required time                                                              0.000
+-------------------------------------------------------------------------------------
+data required time                                                              0.000
+data arrival time                                                             -32.310
+-------------------------------------------------------------------------------------
+slack (VIOLATED)                                                              -32.310
+
+
+#Path 2
+Startpoint: Q2.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:D1.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+Q2.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$logicex.Q2.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$logicex.Q2.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+$iopadmap$logicex.D1.O_DAT[0] (BIDIR_CELL)                            3.708    14.666
+$iopadmap$logicex.D1.O_PAD_$out[0] (BIDIR_CELL)                       9.809    24.475
+out:D1.outpad[0] (.output)                                            0.000    24.475
+data arrival time                                                              24.475
+
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+clock uncertainty                                                     0.000     0.000
+output external delay                                                 0.000     0.000
+data required time                                                              0.000
+-------------------------------------------------------------------------------------
+data required time                                                              0.000
+data arrival time                                                             -24.475
+-------------------------------------------------------------------------------------
+slack (VIOLATED)                                                              -24.475
+
+
+#Path 3
+Startpoint: Q1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:D0.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+Q1.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$logicex.Q1.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$logicex.Q1.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+$iopadmap$logicex.D0.O_DAT[0] (BIDIR_CELL)                            3.669    14.627
+$iopadmap$logicex.D0.O_PAD_$out[0] (BIDIR_CELL)                       9.809    24.436
+out:D0.outpad[0] (.output)                                            0.000    24.436
+data arrival time                                                              24.436
+
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+clock uncertainty                                                     0.000     0.000
+output external delay                                                 0.000     0.000
+data required time                                                              0.000
+-------------------------------------------------------------------------------------
+data required time                                                              0.000
+data arrival time                                                             -24.436
+-------------------------------------------------------------------------------------
+slack (VIOLATED)                                                              -24.436
+
+
+#End of timing report

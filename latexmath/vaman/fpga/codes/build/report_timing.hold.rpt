@@ -1,0 +1,97 @@
+#Timing report of worst 3 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: Q1.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:D0.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+Q1.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$logicex.Q1.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$logicex.Q1.I_DAT[0] (BIDIR_CELL)                           10.153    10.153
+$iopadmap$logicex.D0.O_DAT[0] (BIDIR_CELL)                            3.669    13.822
+$iopadmap$logicex.D0.O_PAD_$out[0] (BIDIR_CELL)                       9.726    23.548
+out:D0.outpad[0] (.output)                                            0.000    23.548
+data arrival time                                                              23.548
+
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+clock uncertainty                                                     0.000     0.000
+output external delay                                                 0.000     0.000
+data required time                                                              0.000
+-------------------------------------------------------------------------------------
+data required time                                                             -0.000
+data arrival time                                                              23.548
+-------------------------------------------------------------------------------------
+slack (MET)                                                                    23.548
+
+
+#Path 2
+Startpoint: Q2.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:D1.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+Q2.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$logicex.Q2.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$logicex.Q2.I_DAT[0] (BIDIR_CELL)                           10.153    10.153
+$iopadmap$logicex.D1.O_DAT[0] (BIDIR_CELL)                            3.708    13.861
+$iopadmap$logicex.D1.O_PAD_$out[0] (BIDIR_CELL)                       9.726    23.587
+out:D1.outpad[0] (.output)                                            0.000    23.587
+data arrival time                                                              23.587
+
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+clock uncertainty                                                     0.000     0.000
+output external delay                                                 0.000     0.000
+data required time                                                              0.000
+-------------------------------------------------------------------------------------
+data required time                                                             -0.000
+data arrival time                                                              23.587
+-------------------------------------------------------------------------------------
+slack (MET)                                                                    23.587
+
+
+#Path 3
+Startpoint: Q0.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:D2.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                                  Incr      Path
+-------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+input external delay                                                  0.000     0.000
+Q0.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$logicex.Q0.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$logicex.Q0.I_DAT[0] (BIDIR_CELL)                           10.153    10.153
+D2_LUT3_O.t_frag.XAB[0] (T_FRAG)                                      4.256    14.409
+D2_LUT3_O.t_frag.XZ[0] (T_FRAG)                                       0.909    15.318
+$iopadmap$logicex.D2.O_DAT[0] (BIDIR_CELL)                            4.448    19.766
+$iopadmap$logicex.D2.O_PAD_$out[0] (BIDIR_CELL)                       9.726    29.492
+out:D2.outpad[0] (.output)                                            0.000    29.492
+data arrival time                                                              29.492
+
+clock virtual_io_clock (rise edge)                                    0.000     0.000
+clock source latency                                                  0.000     0.000
+clock uncertainty                                                     0.000     0.000
+output external delay                                                 0.000     0.000
+data required time                                                              0.000
+-------------------------------------------------------------------------------------
+data required time                                                             -0.000
+data arrival time                                                              29.492
+-------------------------------------------------------------------------------------
+slack (MET)                                                                    29.492
+
+
+#End of timing report

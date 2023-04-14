@@ -1,0 +1,6 @@
+$iopadmap$logicex.D0  14   3  0  # set_io D0		64
+$iopadmap$logicex.D1  16   3  0  # set_io D1		62
+$iopadmap$logicex.D2  18   3  0  # set_io D2		63
+Q0      20   3  0  # set_io Q0		61
+Q1      22   3  0  # set_io Q1		60
+Q2      24   3  0  # set_io Q2		59
