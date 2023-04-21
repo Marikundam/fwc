@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Problem}{}% 1
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.3}{Components}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Seven Segment Display}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Setup}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Steps for Implementation}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{Implementation}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Truth table}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.2}{K-map}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.3}{Boolean Equation}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Hardware}{}% 11
+\BOOKMARK [1][-]{section.7}{Software}{}% 12
